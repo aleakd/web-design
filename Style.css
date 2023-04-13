@@ -2,8 +2,6 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Merienda', cursive;
-font-family: 'Sacramento', cursive;
 }
 p {
 font-size: 1.64rem;
@@ -21,6 +19,7 @@ font-size: 6.19rem;
 margin-top: 50px;
 color: blue;
 margin-bottom: 0px;
+text-shadow: 2px 2px 4px #000000;
 }
 
 h1:hover {
@@ -40,7 +39,9 @@ font-family: IBM Plex Sans;
 h3:hover {
 color:#11999E;
 }
-
+.ale{
+font-family:"Sacramento"
+}
 .top-container {
     background-color: #00FFAB;
     position: relative;
@@ -119,14 +120,31 @@ line-height: 2;
 .contact-me {
 padding-bottom: 50px;
 }
+
+.footer{
+color:red;
+background-color:#5F5F70;
+padding:30px;
+}
+.icono_footer{
+margin:20px;
+}
+
 .footer-link {
 font-family: Arial;
-color: #11999E;
 }
+
+
 .firma {
 font-size: 22px;
 color: #313552;
 }
 .cuerpo-mail {
-background-color: #146356;
+background-image:url("./images/contacto.jpg");
+background-size: cover;
+}
+.formu{
+color:#0FA655;
+font-size: 40px;
+
 }
